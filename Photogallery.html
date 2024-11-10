@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        .photo-container {
+            display: grid;                        /* Set the display to grid */
+            grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns */
+            gap: 20px;                            /* Space between the images */
+        }
+        .photo-container img {
+            width: auto;       /* Let the image take up the full width of the grid cell */
+            height: 200px; 
+            width: 100%; /* Makes images responsive and fill their grid cell */
+            border-radius: 8px; /* Optional: for rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;"><b><u>Photo Gallery</u></b></h1>
+    <div class="photo-container">
+        <img src="./Photos/Birthday1.jpg" alt="Image Not Found">
+        <img src="./Photos/Birthday2.jpg" alt="Image Not Found">
+        <img src="./Photos/Birthday3.jpg" alt="Image Not Found">
+        <img src="./Photos/Birthday4.jpg" alt="Image Not Found">
+    </div>
+    <div class="photo-container">
+        <img src="./Photos/BlackForest.jpg" alt="Image Not Found">
+        <img src="./Photos/cupcake1.jpg" alt="Image Not Found">
+        <img src="./Photos/cupcake2.jpg" alt="Image Not Found">
+        <img src="./Photos/cupcake3.jpg" alt="Image Not Found">
+    </div>
+    <div class="photo-container">
+        <img src="./Photos/Wedding1.jpg" alt="Image Not Found">
+        <img src="./Photos/Pineapple.jpg" alt="Image Not Found">
+        <img src="./Photos/Wedding2.jpg" alt="Image Not Found">
+        <img src="./Photos/RedVelvet.jpg" alt="Image Not Found">
+    </div>
+</body>
+</html>
